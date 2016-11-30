@@ -23,7 +23,7 @@ export default class Cards extends Component {
           contentPad="medium"
           onClick={this._onClickCard.bind(this, grommetPath)}
           direction="column"
-          thumbnail="/docs/img/case_study.png"
+          thumbnail="/img/case_study.png"
           label="Featured Post"
           heading="Protect Your Digital Enterprise ipsum dolores aeat"
           link={<Anchor href={grommetPath} primary={true}
@@ -44,7 +44,7 @@ export default class Cards extends Component {
           contentPad="medium"
           onClick={this._onClickCard.bind(this, grommetPath)}
           direction="column"
-          thumbnail="/docs/img/case_study.png"
+          thumbnail="/img/case_study.png"
           label="Featured Post"
           heading="Foundation Paraguay Empowers Microbusinesses"
           link={<Anchor href={grommetPath} primary={true}
@@ -62,7 +62,7 @@ export default class Cards extends Component {
           contentPad="medium"
           onClick={this._onClickCard.bind(this, grommetPath)}
           direction="column"
-          thumbnail="/docs/img/case_study.png"
+          thumbnail="/img/case_study.png"
           label="Featured Post"
           heading="The Key Steps to Reducing Software Spend"
           link={<Anchor href={grommetPath} primary={true}
