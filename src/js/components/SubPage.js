@@ -2,18 +2,21 @@ import React, { Component } from 'react';
 import Anchor from 'grommet/components/Anchor';
 import Box from 'grommet/components/Box';
 import Card from 'grommet/components/Card';
+import Footer from 'grommet/components/Footer';
 import Heading from 'grommet/components/Heading';
 import Headline from 'grommet/components/Headline';
 import Hero from 'grommet/components/Hero';
 import Paragraph from 'grommet/components/Paragraph';
-import Cards from './Cards';
 import CubesIcon from 'grommet/components/icons/base/Cubes';
 import ComplianceIcon from 'grommet/components/icons/base/Compliance';
+import Header from './Header';
+import Cards from './Cards';
 
 export default class SubPage extends Component {
   render() {
     return (
       <Box>
+        <Header />
         <Hero size="large" backgroundImage="/img/marquee.jpg" colorIndex="light-1">
           <Card
             heading={
@@ -91,9 +94,9 @@ export default class SubPage extends Component {
               <Anchor href="#" primary={true} label="Learn More" />
             } />
         </Hero>
-        <Box colorIndex="light-2" pad={{vertical: "large"}} align="center">
+        <Footer colorIndex="light-2" pad={{vertical: "large"}} align="center">
           <Cards />
-        </Box>
+        </Footer>
       </Box>
     );
   }
