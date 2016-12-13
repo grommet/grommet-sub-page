@@ -11,16 +11,17 @@ export default function AppHeader (props) {
     <Header justify="center" colorIndex="neutral-4">
       <Box size={{width: {max: 'xxlarge'}}} direction="row"
         responsive={false} justify="start" align="center" 
-        pad={{horizontal: 'medium'}}>
+        pad={{horizontal: 'medium'}} flex="grow">
         <ArubaIcon colorIndex="brand" size="large" />
         <Box pad="small" />
-        <Menu label="Label" inline={true} direction="row">
+        <Menu label="Label" inline={true} direction="row" flex="grow">
           <Anchor href="#">Solutions</Anchor>
           <Anchor href="#">Services</Anchor>
           <Anchor href="#">Products</Anchor>
           <Anchor href="#">About Us</Anchor>
           <Anchor href="#">Support</Anchor>
         </Menu>
+
         <Box flex="grow" align="end">
           <SearchIcon />
         </Box>
