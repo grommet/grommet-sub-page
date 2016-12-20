@@ -1,5 +1,7 @@
 # Grommet Sub Page Template
 
+#### [Demo](https://grommet-sub-page-hpe.herokuapp.com/)
+
 To run the website execute the following:
 
   1. Install website NPM modules:
@@ -23,5 +25,5 @@ To run the website execute the following:
   4. Run the back-end server:
 
       ```
-      $ node server/server.js
+      $ npm start
       ```
